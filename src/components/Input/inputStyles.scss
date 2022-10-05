@@ -1,0 +1,41 @@
+.inputBlock {
+  margin-top: 1rem;
+  position: relative;
+}
+.required-field {
+  color: #FF8484;
+  position: absolute;
+  font-size: 8px;
+  margin-top: 4px;
+}
+.input {
+  margin-top: 4px;
+  display: block;
+  border: none;
+  width: 284px;
+  outline: none;
+  padding: 10px 16px;
+  &::placeholder {
+    color: #b4b4b4;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  &.area {
+    height: 108px;
+  }
+  &.error {
+    outline: 1px solid #ff8484;
+  }
+}
+sup {
+  color: #ff8484;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+}
+label {
+  color: #49485e;
+  font-size: 10px;
+}

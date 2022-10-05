@@ -1,0 +1,24 @@
+.form-title {
+  color:#3F3F3F;
+  margin-bottom: 1rem;
+  font-size: 28px;
+  @media screen and (max-width: 700px) {
+    margin: 0;
+    font-size: 20px;
+  }
+}
+
+.container {
+  width: 332px;
+  height: fit-content;
+  padding: 24px;
+  background-color: #fffefb;
+  border-radius: 4px;
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.04),
+    0px 6px 10px rgba(0, 0, 0, 0.02);
+  :first-child {
+    margin: 0;
+  }
+
+}
+
